@@ -2320,7 +2320,7 @@
         ],
         "141256": [
             { "class_name": "agqe", "method_name": "g", "parameter_types": [], "actions": [
-                { "name": "set_field_boolean_before_method", "field_name": "f", "value": true }
+                { "name": "set_field_boolean_before_method", "field_name": "k.e", "value": true }
             ] },
             { "class_name": "dtk", "method_name": "f", "parameter_types": [], "actions": [
                 { "name": "return_string", "value": "on" }
