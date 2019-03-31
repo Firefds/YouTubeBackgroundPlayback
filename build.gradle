@@ -19,16 +19,14 @@ repositories {
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-
+    compileSdkVersion 28
     defaultConfig {
         applicationId 'com.pyler.youtubebackgroundplayback'
         minSdkVersion 4
-        targetSdkVersion 23
+        targetSdkVersion 28
         versionCode 20500
         versionName '2.0.5'
     }
-
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -37,17 +35,17 @@ android {
             assets.srcDirs = ['assets']
         }
     }
-
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt')
         }
     }
-
     lintOptions {
         abortOnError false
         disable 'MissingTranslation'
+    }
+    productFlavors {
     }
 }
 
